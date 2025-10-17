@@ -2,7 +2,7 @@
 
 # Create database and user
 sudo -u postgres psql -c "CREATE DATABASE ai_tutor_dev;"
-sudo -u postgres psql -c "CREATE USER ai_tutor WITH PASSWORD 'Vishu9220';"
+sudo -u postgres psql -c "CREATE USER ai_tutor WITH PASSWORD 'password';"
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE ai_tutor_dev TO ai_tutor;"
 
 # Initialize schema

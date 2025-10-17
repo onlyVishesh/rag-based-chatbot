@@ -56,7 +56,8 @@ echo "Starting services..."
 
 # Start backend in background
 echo "Starting backend server..."
-npm run dev &
+pnpm i
+pnpm run dev &
 BACKEND_PID=$!
 
 # Wait a moment for backend to start
@@ -65,7 +66,8 @@ sleep 3
 # Start frontend
 echo "Starting frontend..."
 cd ../frontend  
-npm run dev &
+pnpm i
+pnpm run dev:nodemon &
 FRONTEND_PID=$!
 
 echo ""

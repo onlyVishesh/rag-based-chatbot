@@ -44,7 +44,7 @@ export function ChatTab() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
-      <h2>AI Tutor Chat</h2>
+      <h2>AI Chatbot Chat</h2>
 
       {/* Topic Selector */}
       <div style={{ marginBottom: "20px" }}>
@@ -85,7 +85,7 @@ export function ChatTab() {
       >
         {messages.length === 0 && (
           <p style={{ color: "#999", textAlign: "center" }}>
-            Start chatting with your AI tutor...
+            Start chatting with your AI Chatbot...
           </p>
         )}
 
@@ -103,7 +103,7 @@ export function ChatTab() {
               border: msg.role === "assistant" ? "1px solid #ddd" : "none",
             }}
           >
-            <strong>{msg.role === "user" ? "You" : "AI Tutor"}:</strong>
+            <strong>{msg.role === "user" ? "You" : "AI Chatbot"}:</strong>
             <p style={{ margin: "5px 0 0 0" }}>{msg.content}</p>
           </div>
         ))}

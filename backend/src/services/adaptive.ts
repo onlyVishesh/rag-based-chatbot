@@ -270,7 +270,7 @@ IMPORTANT: This likely means the student is asking about a topic different from 
     )
     .join("\n");
 
-  console.log(`${contextSection}You are a supportive AI tutor helping a Class 10 CBSE student learn ${
+  console.log(`${contextSection}You are a supportive AI Chatbot helping a Class 10 CBSE student learn ${
     context.topic
   } in ${context.subject}.
 
@@ -321,7 +321,7 @@ ${conversationHistory}
 
 Remember: Your goal is to guide the student to understand concepts deeply, not just memorize formulas. If specific curriculum content isn't available for the topic, provide helpful general educational guidance appropriate for Class 10 CBSE level.`);
 
-  return `${contextSection}You are a supportive AI tutor helping a Class 10 CBSE student learn ${
+  return `${contextSection}You are a supportive AI Chatbot helping a Class 10 CBSE student learn ${
     context.topic
   } in ${context.subject}.
 

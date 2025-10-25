@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🎓 AI Tutor Prototype</h1>
+        <h1>🎓 AI Chatbot </h1>
         <p>
           Chat with AI and take adaptive quizzes based on your study materials
         </p>

@@ -1,7 +1,7 @@
 import { query } from "../db/client";
 
 /**
- * Database management utilities for AI Tutor
+ * Database management utilities for AI Chatbot
  */
 
 /**

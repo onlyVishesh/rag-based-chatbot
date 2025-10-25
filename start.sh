@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "AI Tutor Prototype Setup & Start Script"
+echo "AI Chatbot  Setup & Start Script"
 echo "========================================="
 
 # Check if Ollama is running
@@ -71,7 +71,7 @@ pnpm run dev:nodemon &
 FRONTEND_PID=$!
 
 echo ""
-echo "AI Tutor Prototype is starting!"
+echo "AI Chatbot  is starting!"
 echo ""
 echo "Services:"
 echo "   Backend:  http://localhost:3000"

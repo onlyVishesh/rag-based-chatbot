@@ -1,6 +1,6 @@
-# 🎓 AI Tutor Prototype
+# 🎓 AI Chatbot
 
-A prototype AI tutoring system with chat functionality and adaptive quiz generation using RAG (Retrieval-Augmented Generation) with local LLM via Ollama.
+A AI Chatboting system with chat functionality and adaptive quiz generation using RAG (Retrieval-Augmented Generation) with local LLM via Ollama.
 
 ## ✨ Features
 
@@ -162,7 +162,7 @@ npm run process-pdfs ./pdfs/general "General Studies"
 ## 📁 Project Structure
 
 ```
-ai-tutor-prototype/
+ai-tutor-/
 ├── backend/
 │   ├── src/
 │   │   ├── db/          # Database client and schema
@@ -233,7 +233,7 @@ Key configuration options:
 
 ## 📈 Future Enhancements
 
-This prototype can be extended with:
+This can be extended with:
 
 - **User authentication** and personal learning profiles
 - **Progress tracking** and learning analytics
@@ -245,7 +245,7 @@ This prototype can be extended with:
 
 ## 📝 License
 
-This project is for educational and prototype purposes. Feel free to modify and extend for your needs.
+This project is for educational and purposes. Feel free to modify and extend for your needs.
 
 ---
 

@@ -23,7 +23,7 @@ const OLLAMA_BASE_URL = "http://localhost:11434";
  */
 export async function generateResponse(
   prompt: string,
-  model: string = "mistral:7b"
+  model: string = "llama3.2:latest"
 ): Promise<string> {
   const response = await fetch(`${OLLAMA_BASE_URL}/api/generate`, {
     method: "POST",

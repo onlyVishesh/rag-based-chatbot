@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🧠 Testing AI Tutor Adaptive System"
+echo "🧠 Testing AI Chatbot Adaptive System"
 echo "=================================="
 
 # Apply the adaptive schema (if not already done)
@@ -8,7 +8,7 @@ echo "📊 Setting up adaptive tracking..."
 psql -d ai_tutor_dev -f src/db/adaptive_schema.sql
 
 echo ""
-echo "✅ Adaptive AI Tutor System Ready!"
+echo "✅ Adaptive AI Chatbot System Ready!"
 echo ""
 echo "🎯 New Features Added:"
 echo "   • Smart system prompts for chat (Class 10 CBSE focused)"

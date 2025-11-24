@@ -13,6 +13,13 @@ A AI Chatboting system with chat functionality and adaptive quiz generation usin
 - **🏠 Local AI**: Runs completely locally using Ollama (no external API calls)
 - **⚡ Real-time**: Fast responses with PostgreSQL + pgvector for similarity search
 
+ # demo video
+ 
+
+https://github.com/user-attachments/assets/d5939908-e5f0-484b-bf80-5731caae3451
+
+
+
 ## 🏗️ Architecture
 
 ```
